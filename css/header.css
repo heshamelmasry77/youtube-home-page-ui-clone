@@ -1,0 +1,40 @@
+/*THIS IS THE HEADER CSS*/
+.settings-and-signin {
+    display: flex;
+    gap: .5rem;
+}
+.menu-btn-and-logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu-btn-and-logo div {
+    height: 20px;
+}
+
+.settings-btn {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.signin-btn {
+    background: transparent;
+    color: #3ea6ff;
+    border-radius: 20px;
+    padding: .5rem;
+    font-weight: bold;
+    border: 1px solid #3f3f3f;
+    display: inline-flex;
+    gap: .5rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.signin-btn:hover {
+    background-color: #263850;
+    border-color: transparent;
+    cursor: pointer;
+}
